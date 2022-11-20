@@ -16,15 +16,14 @@ def main():
     print("This program adds only positive integers.")
     loop_number = input("Enter the amount of integers you want to add: ")
 
-
     # process
     try:
-        int_loops = int(loop_number) 
+        int_loops = int(loop_number)
         while loop_counter < int_loops:
             user_str = input("Enter a integer: ")
             int_user = int(user_str)
             if int_user > 0:
-                    answer = answer + int_user
+                answer = answer + int_user
             else:
                 loop_counter = loop_counter + 1
                 continue
